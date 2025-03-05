@@ -3,7 +3,7 @@ import imagea from "../assets/imagea.png"; // Replace with the correct path
 
 const ExpertiseSection = () => {
   return (
-    <section className="bg-[#EDE6FA] flex justify-center py-16 px-6">
+    <section className="bg-[#ffffff] flex justify-center py-16 px-6">
       <div 
       className="relative flex flex-col md:flex-row w-[85%] max-w-6xl bg-[#9b83b5] text-white overflow-hidden shadow-lg pentagon-bottom-left"
       style={{
@@ -14,7 +14,7 @@ const ExpertiseSection = () => {
         
         {/* Left Content with Slanted Cut */}
         <div className="relative w-full md:w-[55%] p-6 md:p-14 flex flex-col space-y-7">
-        <h2 className="text-[52px] md:text-4xl font-semibold leading-tight mb-6 md:mb-8 font-chakra-petch">
+        <h2 className="text-[52px] md:text-5xl font-semibold leading-tight mb-6 md:mb-8 font-chakra-petch">
           Our expertise and experience
         </h2>
 

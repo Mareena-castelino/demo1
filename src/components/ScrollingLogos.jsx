@@ -32,7 +32,7 @@ const ScrollingLogos = () => {
   const allLogos = [...logos, ...logos]; // Duplicate logos for seamless scroll
 
   return (
-    <div className="w-full bg-purple-500 py-4 overflow-hidden">
+    <div className="w-full bg-purple-500 py-8 overflow-hidden">
       <div className="flex animate-scroll gap-4"> {/* Adjusted gap for small space */}
         {allLogos.map((logo, index) => (
           <img

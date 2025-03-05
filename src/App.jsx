@@ -4,7 +4,7 @@ import ScrollingLogos from './components/ScrollingLogos';
 import FacesBehindIndustry from './components/FacesBehindIndustry';
 import ExpertiseSection from './components/ExpertiseSection';
 import CoreValueSection from './components/CoreValueSection';
-import HistorySection from './components/HistorySection';
+/*import HistorySection from './components/HistorySection';*/
 import SuccessHistory from './components/SuccessHistory';
 const App = () => {
   return (
@@ -14,6 +14,7 @@ const App = () => {
       <ScrollingLogos/>
       <FacesBehindIndustry/>
       <ExpertiseSection/>
+    
 
     </div>
   );

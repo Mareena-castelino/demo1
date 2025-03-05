@@ -15,7 +15,7 @@ const teamMembers = [
 
 const FacesBehindIndustry = () => {
     return (
-        <section className="bg-[#F5F7FA] flex flex-col items-center py-16 px-4">
+        <section className="bg-[#ffffff] flex flex-col items-center py-16 px-4">
             {/* Section Title */}
             <h2 className="text-[42px] font-bold text-[#121212] mb-12 text-center">
                 The Faces Behind Industry
