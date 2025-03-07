@@ -3,33 +3,38 @@ import imagea from "../assets/imagea.png"; // Replace with the correct path
 
 const ExpertiseSection = () => {
   return (
-    <section className="bg-[#ffffff] flex justify-center py-16 px-6">
-      <div 
-      className="relative flex flex-col md:flex-row w-[85%] max-w-6xl bg-[#9b83b5] text-white overflow-hidden shadow-lg pentagon-bottom-left"
-      style={{
-        width: "1200px",
-        height: "439px",
-      }}
+    <section className="bg-[#ffffff] flex justify-center py-12 px-4 md:py-16 md:px-6">
+      <div
+        className="relative flex flex-col md:flex-row w-full max-w-6xl bg-[#9b83b5] text-white overflow-hidden shadow-lg pentagon-bottom-left"
+        style={{
+          maxWidth: "1200px",
+          height: "auto",
+        }}
       >
-        
         {/* Left Content with Slanted Cut */}
-        <div className="relative w-full md:w-[55%] p-6 md:p-14 flex flex-col space-y-7">
-        <h2 className="text-[52px] md:text-5xl font-semibold leading-tight mb-6 md:mb-8 font-chakra-petch">
-          Our expertise and experience
-        </h2>
+        <div className="relative w-full md:w-[55%] p-6 md:p-14 flex flex-col space-y-6 md:space-y-7">
+          <h2 className="text-3xl md:text-[52px] font-semibold leading-tight mb-4 md:mb-8 font-chakra-petch text-center md:text-left">
+            Our expertise and experience
+          </h2>
 
-          <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+          <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 text-center md:text-left">
             <div>
-              <p className="text-[40px] md:text-5xl font-bold font-chakra-petch">92%</p>
-              <p className="text-[16px] font-poppins" style={{ color: "rgba(29, 38, 53, 0.6)" }}>Increase In Production Efficiency</p>
+              <p className="text-4xl md:text-5xl font-bold font-chakra-petch">92%</p>
+              <p className="text-[14px] md:text-[16px] font-poppins text-gray-300">
+                Increase In Production Efficiency
+              </p>
             </div>
             <div>
               <p className="text-4xl md:text-5xl font-bold font-chakra-petch">32</p>
-                 <p className="text-[16px] font-poppins" style={{ color: "rgba(29, 38, 53, 0.6)" }}>"In-House Industrial Experts</p>
+              <p className="text-[14px] md:text-[16px] font-poppins text-gray-300">
+                In-House Industrial Experts
+              </p>
             </div>
             <div>
-              <p className="tex[40px]xl md:text-5xl font-bold">350+</p>             
-              <p className="text-[16px] font-poppins" style={{ color: "rgba(29, 38, 53, 0.6)" }}>"Delivered Solutions</p>
+              <p className="text-4xl md:text-5xl font-bold font-chakra-petch">350+</p>
+              <p className="text-[14px] md:text-[16px] font-poppins text-gray-300">
+                Delivered Solutions
+              </p>
             </div>
           </div>
         </div>
@@ -39,7 +44,7 @@ const ExpertiseSection = () => {
           <img
             src={imagea}
             alt="Industrial Expertise"
-            className="w-full h-full object-cover"
+            className="w-full h-auto md:h-full object-cover"
           />
         </div>
       </div>
