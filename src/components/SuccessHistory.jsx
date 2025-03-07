@@ -31,7 +31,11 @@ const SuccessHistory = () => {
         <div className="flex flex-col md:flex-row items-center px-6 sm:px-12 py-8 sm:py-12 relative text-center md:text-left">
           {/* Left Text */}
           <div className="md:w-1/2">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#333] leading-tight">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#333] leading-tight" style={{fontFamily: 'Chakra Petch', 
+          fontWeight: 600, 
+          fontSize: '60px', 
+          lineHeight: '100%', 
+          letterSpacing: '0%' }}>
               Stepping through our <br /> history of success
             </h2>
           </div>
