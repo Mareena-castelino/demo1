@@ -89,8 +89,14 @@ const SuccessHistory = () => {
             />
             {/* Since Box */}
            <div className="absolute bottom-[0px] right-[0px] bg-white px-10 py-5 w-[250px] h-[150px] text-[#7A6E92] pentagon-bottom-left">
-           <p className="absolute top-2 left-2 text-xl text-style">Since</p>
-         <p className="absolute bottom-2 right-2 text-4xl font-semibold text-style">2002</p>
+           <p className="absolute top-2 left-2 text-xl text-style" style={{
+              fontFamily: 'Chakra Petch',
+              fontWeight: '500',
+              fontSize: '40px',  }}>Since</p>
+         <p className="absolute bottom-2 right-2 text-4xl font-semibold text-style" style={{
+              fontFamily: 'Chakra Petch',
+              fontWeight: '500',
+              fontSize: '40px',  }}>2002</p>
 
             </div>
 
