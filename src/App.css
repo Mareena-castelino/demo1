@@ -1,7 +1,7 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
@@ -46,4 +46,16 @@
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 15% 100%, 0% 85%);
   }
   
+}
+@keyframes Popper {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.social-handlers {
+  animation: Popper 0.7s ease-out;
 }
